@@ -1,0 +1,116 @@
+body {
+  font-family:monospace;
+  background-color: black;
+}
+
+.book-image {
+  width: 220px;
+  height: 220px;
+}
+
+.shop-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:left;
+  background-color: #7D8597;
+  padding: 30px;
+}
+
+.book-card {
+  border: 2px solid #001233;
+  padding: 3px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 10px;
+  margin: 5px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.book-info {
+  background-color: #33415C;
+  padding: 5px;
+  border-radius: 5px;
+  color: #ffb703;
+  text-align: left;
+  margin-top: 10px;
+  line-height: 12px;
+}
+
+.book-id, .book-price, .book-name {
+  font-size: 18px;
+}
+
+.book-btn {
+  width: 40px;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: #001427;
+  color: white;
+  cursor: pointer;
+}
+
+.navbar-anchor {
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  margin: 2px;
+  cursor: pointer;
+  background-color: #979DAC;
+  color: black;
+  background-color: #ffb703;
+  text-decoration: none;
+}
+
+.searchbox-input {
+  width: 320px;
+  height: 30px;
+}
+
+.cart-container {
+  display: block;
+  overflow: hidden;
+  background-color: #002855;
+  padding: 5px;
+  color: white;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+
+
+
+
+
+
+
+
+
+}
+
+.basket-count {
+  font-size: 20px;
+}
+
+.navbar-container {
+  background-color: #001233;
+  height: 30px;
+  padding: 15px;
+  align-items: center;
+}
+
+
+.searchbox-container {
+  background-color: #979DAC;
+  padding: 2px;
+}
+
+.searchbox-input {
+  width: 320px;
+  margin: 3px;
+  padding: 5px;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  border: 1px solid gray;
+  font-size: 15px;
+}
