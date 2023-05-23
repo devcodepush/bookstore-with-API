@@ -1,2 +1,1 @@
-# bookstore
-MFR Bootcamp Final Project
+# bookstore-with-API
